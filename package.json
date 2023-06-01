@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.7.0",
+    "@remix-run/css-bundle": "0.0.0-nightly-a6b5532-20230531",
+    "@remix-run/node": "0.0.0-nightly-a6b5532-20230531",
+    "@remix-run/react": "0.0.0-nightly-a6b5532-20230531",
+    "@remix-run/serve": "0.0.0-nightly-a6b5532-20230531",
+    "@t3-oss/env-core": "^0.4.0",
+    "bcryptjs": "^2.4.3",
+    "drizzle-orm": "^0.26.3",
+    "isbot": "^3.6.10",
+    "mysql2": "^3.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "0.0.0-nightly-a6b5532-20230531",
+    "@remix-run/eslint-config": "0.0.0-nightly-a6b5532-20230531",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "drizzle-kit": "^0.18.1",
+    "eslint": "^8.41.0",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
